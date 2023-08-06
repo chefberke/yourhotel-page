@@ -2,96 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yourhotel-website</title>
     <link rel="stylesheet" href="/css/style.css">
-    <title>Your Hotel | Homepage</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 <body>
-   <div id="nav-bar">
-        <h1>Your Hotel</h1>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-                <a href="rooms.html">Rooms</a>
-                <a href="contact.html">Contact Us</a>
-            </li>
-        </ul>
+    <header>
+        <div id="topside-container">
+            <div id="nav-bar-container">
+                <h1>Your Hotel</h1>
+                <ul>
+                    <li>
+                        <a href="#topside-container">Home</a>
+                        <a href="#about-container">About</a>
+                        <a href="#rooms-container">Rooms</a>
+                        <a href="#footer-container">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="topside-image" class="img">
+                <h1>Top Hotel In City</h1>
+                <p>otel & Resort</p>
+            </div>
+        </div>
+    </header>
+    <section>
+    <div id="about-container">
+        <div id="about-text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, odio necessitatibus architecto possimus officia repudiandae<br> ipsum ducimus vel? Provident voluptatum earum nobis maiores dolorum numquam nisi hic quos deleniti. Lorem ipsum dolor sit amet.
+            </p>
+            <div id="about-button">
+                <button class="button-9" role="button">READ MORE</button>
+            </div>
+        </div>
+        <div id="about-image">
+            <img src="/img/room-picture1.jpg" alt="">
+        </div>
+        
     </div>
-    <div id="home-page">
-        <div id="page-inside" class="img">
-          <h1>Top Hotel In City</h1>
-          <p>Otel & Resort</p>
+    <div id="rooms-container">
+        <div id="rooms-header">
+            <h2>All room types...</h2>
+            <p>rooms suitable for everyone's life</p>
+        </div>
+        <div id="rooms-box-container">
+        <div class="rooms-box">
+                <img src="/img/room-picture.jpg" alt="">
+                <h2>Double Room</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis culpa dolorum vel dicta dolores voluptatum <br> repellendus animi nisi sunt quo.</p>
+                <div id="about-button-v2">
+                    <button class="button-9" role="button">READ MORE</button>
+                </div>
+            </div>
+            <div class="rooms-box">
+                    <img src="/img/room-picture3.jpg" alt="">
+                    <h2>Honeymoon Suite</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis culpa dolorum vel dicta dolores voluptatum <br> repellendus animi nisi sunt quo.</p>
+                    <div id="about-button-v2">
+                        <button class="button-9" role="button">READ MORE</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="info-box">
-      <div class="box">
-        <i class="material-symbols-outlined">pin_drop</i>
-        <h2>Great Location</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium soluta ipsum placeat voluptate fugiat tempore iure voluptas mollitia ullam nesciunt commodi omnis tempora? Tenetur ullam quos quidem labore reiciendis.
-        </p>
-      </div>
-      <div class="box">
-        <i class="material-symbols-outlined">restaurant</i>
-        <h2>Free Meals</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum quos tempora rem deserunt enim quo aspernatur architecto earum similique!</p>
-      </div>
-      <div class="box">
-        <i class="material-symbols-outlined">exercise</i>
-        <h2>Fitness Room</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde hic, sed dicta aperiam impedit minima, quaerat maxime obcaecati odit consequuntur, eos natus odio sequi quibusdam!</p>
-      </div>
-    </div>
-    <div id="comments">
-      <h1>Positive Comments</h1>
-      <p>reviews from previous customers</p>
-      <div class="customers-box">
-       <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="">
-       <h2>Martin Knight</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, blanditiis.</p>
-       <div class="star-comments">
-        <i class="material-symbols-outlined">star</i>
-        <i class="material-symbols-outlined">star</i>
-        <i class="material-symbols-outlined">star</i>
-        <i class="material-symbols-outlined">star</i>
-        <i class="material-symbols-outlined">star_half</i>
-       </div> 
-      </div>
-      <div class="customers-box">
-        <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="">
-        <h2>Nevaeh Palmer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aliquid, est similique mollitia quam repudiandae.</p>
-        <div class="star-comments">
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-        </div> 
-       </div>
-       <div  id="right-side-box" class="customers-box">
-        <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="">
-        <h2>Crystal West</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <div class="star-comments">
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-         <i class="material-symbols-outlined">star</i>
-        </div> 
-       </div>
-    </div>
-    <div id="bottom-side">
-      <div class="bottom">
-        <a href="#">More Information</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-        <a href="#">Location</a>
-        <a href="#">Reservation</a>
-      </div>
-    </div>
+    </section>
+    <footer>
+        <div id="footer-container">
+            <div id="footer-first-side">
+                <h3>Adress</h3>
+                <p>4302 Linden Avenue</p>
+                <p>Winter Park</p>
+                <p>Florida</p>
+            </div>
+            <div id="footer-first-side">
+                <h3>Reservation</h3>
+                <p>+407-619-9487</p>
+                <p>yourhotel@yourhotel.com</p>
+                <p>UTC-6: Central Standard Time (CST)</p>
+            </div>
+            <div id="footer-first-side">
+                <h3>Social Media</h3>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-twitter"></i> 
+                 <i class="fab fa-facebook"></i> 
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
