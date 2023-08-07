@@ -125,8 +125,7 @@ header {
   }
  section {
   height: 100%;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 7%, rgba(204,204,204,1) 100%);
+  background-color: #fff;
  }
  #about-container {
   display: flex;
