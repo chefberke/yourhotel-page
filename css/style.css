@@ -28,11 +28,22 @@ header {
     font-size: 32px;
     cursor: pointer;
     color: #ffffff;
+    position: fixed; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    opacity: 0.8;
+    background-color: #101010;
+    width: 100%;
   }
   #nav-bar-container ul {
     display: flex;
     list-style: none;
     margin-right: 20px;
+    position: fixed; 
+    width: 100%;
   }
   #nav-bar-container ul li {
     margin-left: 10px;
