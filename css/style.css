@@ -125,7 +125,8 @@ header {
   }
  section {
   height: 100%;
-  background-color: #f0f0f0;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 7%, rgba(204,204,204,1) 100%);
  }
  #about-container {
   display: flex;
@@ -178,6 +179,7 @@ header {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 10rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .button-9:disabled {
   cursor: default;
