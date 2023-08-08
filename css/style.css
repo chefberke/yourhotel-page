@@ -33,8 +33,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
-    opacity: 0.8;
     background-color: #101010;
     width: 100%;
   }
@@ -270,19 +268,19 @@ header {
 }
 .fa-instagram {
   font-size: 28px; 
-  color: #6c82ff;
+  color: #fefefe;
   cursor: pointer;
   padding: 2px;
 }
 .fa-twitter {
   font-size: 28px; 
-  color: #6c82ff;
+  color: #fefefe;
   cursor: pointer;
   padding: 2px;
 }
 .fa-facebook {
   font-size: 28px; 
-  color: #6c82ff;
+  color: #fefefe;
   cursor: pointer;
   padding: 2px;
 }
