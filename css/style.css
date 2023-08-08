@@ -131,12 +131,11 @@ header {
   padding-top: 50px;
   padding: 6rem;
  }
- #about-image img {
-    height: 25rem;
-    width: 40rem;
-    border-radius: 2rem;
-    padding: 10px;
- }
+.about-image {
+  width: 45rem;
+  height: 30rem;
+  border-radius: 50px;
+}
  #about-text h2 {
   color: #333;
   font-size: 50px;
@@ -283,4 +282,33 @@ header {
   color: #fefefe;
   cursor: pointer;
   padding: 2px;
+}
+.button-1 {
+background-color: #405cf5;
+border-radius: 8px;
+border-style: none;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+height: 50px;
+line-height: 20px;
+list-style: none;
+margin: 0;
+outline: none;
+padding: 10px 16px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: color 100ms;
+vertical-align: baseline;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+.button-1:hover {
+    background-color: #1234f6;;
 }
