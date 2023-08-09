@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -135,6 +136,9 @@ header {
   width: 45rem;
   height: 30rem;
   border-radius: 50px;
+}
+#about-text {
+  padding-right: 20px;
 }
  #about-text h2 {
   color: #333;
